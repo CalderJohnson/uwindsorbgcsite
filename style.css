@@ -1,8 +1,17 @@
+/* 
+    Style sheet for the home page.
+
+    Last update: Oct 1 2022.
+    Last updated by: Morose#6189
+*/
+
 body {
-    padding: 0;
-    margin: 0;
+    /* This was to remove the default margin and padding. */
+    padding: 0; margin: 0;
     background-color: #323232;
 }
+
+/* This is the style for the big banner on top with the logo */
 #header {
     text-align: center;
     height: 260px;
@@ -11,6 +20,7 @@ body {
     color: white;
 }
 
+/* This is the style of the parent info div to align the #about and #events properly */
 #info {
     display: flex;
     justify-content: right;
@@ -18,6 +28,7 @@ body {
     top: 50px;
 }
 
+/* This is the style for the about us section */
 #about {
     background: black;
     width: 50%;
@@ -28,10 +39,12 @@ body {
     margin-right: 60px;
 }
 
+/* This centers the title */
 #about h1 {
     text-align: center;
 }
 
+/* This is the style for the events panel */
 #events {
     background-color: black;
     color: white;
@@ -42,6 +55,7 @@ body {
     text-align: left;
 }
 
+/* This centers the title */
 #events h1 {
     text-align: center;
 }

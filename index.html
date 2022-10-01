@@ -1,28 +1,57 @@
+<!--
+    This is the home page of the website.
+
+    Last updated: Oct 1 2022
+    Last updated by: Morose#6189
+-->
 <!DOCTYPE html>
 
 <html>
     <head>
         <title> The University of Windsor Board Games Club </title>
-        <meta name = "description" content = "Official website for the board games club."/>
+        <meta name = "description" content = "Official website for The University of Windsor Board Games Club."/>
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href = "style.css">
     </head>
 
-    <body style = "font-family: 'Courier New', Courier, monospace">
+    <body style = "font-family: 'Courier New', Courier, monospace"> <!-- Possible TODO: Change font -->
         <div id = "header">
             <img src = "images/logo.png" width = "128" height = "128"/>
             <h1> The University of Windsor Board Games Club </h1>
+
+            <!-- TODO: Either hyperlink each text or make drop down menus that show related content -->
             <sub> In Person | Online | Dungeons & Dragons | Lancer | Magic The Gathering </sub>
         </div>
 
+        <!-- The info div is the parent div used to align about and info. -->
         <div id = "info">
         <section id = "about">
             <h1> About Us </h1>
+            <!-- Always wrap large text. -->
             <p>
-                The UWindsor Board Games Club is an organization formed to offer students the opportunity to expand their strategic knowledge and critical thinking skills by providing a safe and fun environment away from the stresses of academia for all game lovers whether it be board games, card games, or anything the mind can imagine. Our aim is to make board gaming an accessible and enjoyable fun experience for everyone. To become the most reliable place for organizing quality modern board gaming events, by being an accessible global meeting place anybody can use, designed to meet the specific needs of the board game community in a user friendly and convenient way. We play for fun and for education! We aim to teach, promote and make available games to build community within the club. We are dedicated to fair fun, inclusivity and good sportsmanship both in-game and in our interactions. As such, we encourage people of all levels of familiarity and skill to participate in our events. We aim to provide an environment that allows people to experience all types of games, emphasizing fun over competition. Everyone is welcome to become a member, so invite your friends and come play some games!
+                The UWindsor Board Games Club is an organization formed to offer students the opportunity to expand their strategic knowledge and
+                critical thinking skills by providing a safe and fun environment away from the stresses of academia for all game lovers whether
+                it be board games, card games, or anything the mind can imagine. Our aim is to make board gaming an accessible and enjoyable
+                fun experience for everyone. To become the most reliable place for organizing quality modern board gaming events, by being an
+                accessible global meeting place anybody can use, designed to meet the specific needs of the board game community in a user
+                friendly and convenient way. We play for fun and for education! We aim to teach, promote and make available games to build
+                community within the club. We are dedicated to fair fun, inclusivity and good sportsmanship both in-game and in our
+                interactions. As such, we encourage people of all levels of familiarity and skill to participate in our events. We aim to
+                provide an environment that allows people to experience all types of games, emphasizing fun over competition. Everyone is
+                welcome to become a member, so invite your friends and come play some games!
             </p>
         </section>
 
+        <!--
+            For the events, make sure it follows the same order.
+            <li> Day, Month Date Year.
+                <ul> <li> Event Description </li> </ul>
+            </li>
+
+            If there is a pre-existing event put this format underneath it.
+            This is how we will update the events for now until we implement
+            the system to do automatically do it.
+        -->
         <div id = "events">
             <h1> Upcoming Events! </h1>
                 <li> Thursday, October 6th 2022. 
@@ -30,6 +59,6 @@
                 </li>
             </ul>
         </div>
-        </div>
+        </div> <!-- End of info -->
     </body>
 </html>
