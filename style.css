@@ -1,8 +1,7 @@
 /* 
     Style sheet for the home page.
-
     Last update: Oct 1 2022.
-    Last updated by: Morose#6189
+    Last updated by: Star#1895
 */
 
 body {
@@ -46,6 +45,17 @@ body {
 
 /* This is the style for the events panel */
 #events {
+    background-color: black;
+    color: white;
+    width: 15%;
+    height: 500px;
+    padding: 25px;
+    margin-right: 60px;
+    text-align: left;
+}
+
+/* This is the style for the social media links section */
+#social {
     background-color: black;
     color: white;
     width: 15%;
