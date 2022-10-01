@@ -8,9 +8,9 @@ The license on this website is GPL v3 so you can do whatever with the source but
 
 # Plans
 
-- [] Porting the great list of board games onto the website
-- [] Adding testimonies
-- [] Event pictures
-- [] Contact Information
-- [] Event Information
-- [] Page footer
+- [ ] Porting the great list of board games onto the website
+- [ ] Adding testimonies
+- [ ] Event pictures
+- [ ] Contact Information
+- [ ] Event Information
+- [ ] Page footer
