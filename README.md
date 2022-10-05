@@ -22,10 +22,16 @@ You can contribute to this project, but you have to follow a few rules before I 
 
 # Plans
 
+- [ ] Have a readible and modern design
+- [ ] Get a backend
+- [ ] Make system to update content dynamically without having to hardcode the updates
 - [ ] Porting the great list of board games onto the website
 - [ ] Adding testimonies
 - [ ] Event pictures
 - [ ] Contact Information
 - [ ] Event Information
 - [ ] Page footer
-- [ ] Adding pages for each category we have.
+- [ ] Adding pages for each category we have
+- [ ] Adding form/survey system
+- [ ] Add in account system
+- [ ] Create a calendar on the website with upcoming events
