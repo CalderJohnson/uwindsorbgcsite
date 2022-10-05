@@ -1,13 +1,14 @@
 /* 
     Style sheet for the home page.
-    Last update: Oct 1 2022.
-    Last updated by: Star#1895
+    Last update: Oct 5 2022.
+    Last updated by: Morose#6189
 */
 
 body {
     /* This was to remove the default margin and padding. */
     padding: 0; margin: 0;
     background-color: #323232;
+    min-height: 100vh;
 }
 
 /* This is the style for the big banner on top with the logo */
@@ -25,12 +26,15 @@ body {
     justify-content: right;
     position: relative;
     top: 50px;
+    width: auto;
+    height: auto;
 }
 
 /* This is the style for the about us section */
 #about {
     background: black;
     width: 50%;
+    height: 340px;
     color: white;
     padding: 25px;
     text-indent: 40px;
@@ -51,7 +55,11 @@ body {
     height: 500px;
     padding: 25px;
     margin-right: 60px;
-    text-align: left;
+}
+
+/* This centers the title */
+#events h1 {
+    text-align: center;
 }
 
 /* This is the style for the social media links section */
@@ -59,13 +67,33 @@ body {
     background-color: black;
     color: white;
     width: 15%;
-    height: 500px;
+    height: 300px;
     padding: 25px;
     margin-right: 60px;
     text-align: left;
 }
 
-/* This centers the title */
-#events h1 {
+/* This is the style for the footer */
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 100%;
+    margin-top: 100px;
+}
+
+.category {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+
 }
