@@ -1,5 +1,5 @@
 <!-- 
-    Last updated: Oct 1 2022.
+    Last updated: Oct 5 2022.
     Last updated by: Morose#6189
 -->
 # What is this?
@@ -23,7 +23,7 @@ You can contribute to this project, but you have to follow a few rules before I 
 # Plans
 
 - [ ] Have a readible and modern design
-- [ ] Get a backend
+- [ ] Make a backend
 - [ ] Make system to update content dynamically without having to hardcode the updates
 - [ ] Porting the great list of board games onto the website
 - [ ] Adding testimonies
@@ -35,3 +35,4 @@ You can contribute to this project, but you have to follow a few rules before I 
 - [ ] Adding form/survey system
 - [ ] Add in account system
 - [ ] Create a calendar on the website with upcoming events
+- [ ] Discord integration, events posted on discord gets posted on the site and vice versa
